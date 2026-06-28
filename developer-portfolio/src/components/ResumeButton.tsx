@@ -21,7 +21,7 @@ export function ResumeButton() {
 
   return (
     <Link href={profile.resumeUrl} className="button-primary" download>
-      Download résumé
+      Download resume
     </Link>
   );
 }

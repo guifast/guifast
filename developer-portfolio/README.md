@@ -76,9 +76,9 @@ Recommended dimensions:
 
 See `SCREENSHOTS.md` for replacement and sanitization guidance.
 
-## Add Résumé PDF
+## Add Resume PDF
 
-Place the résumé at:
+Place the resume at:
 
 ```text
 public/guilherme-fath-resume.pdf
@@ -136,7 +136,7 @@ The Next.js config uses `output: "export"` and unoptimized images so Cloudflare 
 ## Pre-Deploy Checklist
 
 - Configure email and LinkedIn URL.
-- Add the production résumé PDF or keep `PDF coming soon`.
+- Add the production resume PDF or keep `PDF coming soon`.
 - Replace SVG placeholders with sanitized screenshots.
 - Set `NEXT_PUBLIC_SITE_URL` to the final domain.
 - Run `npm run lint`.
