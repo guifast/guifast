@@ -13,7 +13,7 @@ export function createMetadata({
   title,
   description = defaultDescription,
   path = "/",
-  image = "/opengraph-image",
+  image = "/og-image.png",
 }: {
   title?: string;
   description?: string;

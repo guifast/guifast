@@ -1,6 +1,6 @@
 # Guilherme Fath Portfolio
 
-Public portfolio for Guilherme Fath, positioned as a Full-Stack Product Engineer specializing in SaaS platforms, business systems and AI-powered integrations.
+Public portfolio for Guilherme Fath, a full-stack product engineer building SaaS products, business systems and AI integrations.
 
 ## Stack
 
@@ -121,12 +121,17 @@ public/projects/         Project screenshot slots
 
 ### Cloudflare Pages
 
-Use Cloudflare's Next.js support. Set:
+This project is configured as a static Next.js export for Cloudflare Pages.
 
+Set:
+
+- Root directory: `developer-portfolio`
 - Build command: `npm run build`
+- Build output directory: `out`
+- Node.js version: `22`
 - Environment variable: `NEXT_PUBLIC_SITE_URL`
 
-Verify compatibility with the active Cloudflare Next.js adapter before production launch.
+The Next.js config uses `output: "export"` and unoptimized images so Cloudflare can publish the static output directly.
 
 ## Pre-Deploy Checklist
 
