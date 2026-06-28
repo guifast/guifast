@@ -20,7 +20,7 @@ export default function ResumePage() {
         <SectionHeader
           eyebrow="Resume"
           title="Full-stack product engineer focused on SaaS, business systems and AI integrations."
-          description="A web résumé built from structured content. Add the PDF to public/guilherme-fath-resume.pdf when ready."
+          description="A web résumé built from structured content, with the PDF version available for download."
         >
           <div className="flex flex-wrap gap-3">
             <ResumeButton />
