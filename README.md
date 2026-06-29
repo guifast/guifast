@@ -40,6 +40,11 @@ B2B2C loyalty platform connecting a supplement brand, partner gyms and customers
 
 [View product](https://club.sbsupplements.com.br/)
 
+## Public source
+
+* [Developer Portfolio](https://github.com/guifast/developer-portfolio)
+* [Multi-Tenant SaaS Starter](https://github.com/guifast/multi-tenant-saas-starter)
+
 ## Core stack
 
 ```text
